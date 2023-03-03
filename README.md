@@ -1,3 +1,3 @@
 # newsletter
-um sistema de newletter básico em PHP para utilizar em workshops
+um sistema de newsletter básico em PHP para utilizar em workshops
 
