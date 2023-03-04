@@ -1,3 +1,4 @@
+<?php if(isset($_SESSION['iduser'])){header("location:view/dashboard.php");} ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -68,7 +69,7 @@
     <div class="login-card">
         <h1 class="login-title">Login</h1>
         <div>
-            <form action="Controller/UserController.php" METHOD="POST">
+            <form action="Routes/Login.php" METHOD="POST">
                 <input type="text" name="email" placeholder="Digite seu e-mail"  class="input" maxlength="50" required>
                 <input type="password" name="password" placeholder="Digite sua senha"  class="input" maxlength="20" required>
                 <input type="submit" value="Iniciar Sessão" class="btn">
@@ -76,7 +77,7 @@
         </div>
     </div>
     <footer class="footer">
-        <h6>Criado por @baratadomal @ 2023</h4>
+        <h6>Criado por @baratadomal 2023</h4>
     </footer>
 </body>
 

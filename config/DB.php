@@ -1,6 +1,6 @@
 <?php
-
 Class DB {
+
     public $con;
 
     public function __construct(){
