@@ -1,4 +1,7 @@
-<?php if(isset($_SESSION['iduser'])){header("location:view/dashboard.php");} ?>
+<?php 
+    session_start();
+    if(isset($_SESSION['id'])){header("location:view/dashboard.php");} 
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 

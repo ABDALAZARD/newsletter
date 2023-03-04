@@ -1,6 +1,8 @@
 <?php
     include "../Controllers/Users.php";
 
+    session_start();
+
     $user = new Users;
 
     $user->login($_POST['email'],$_POST['password']);

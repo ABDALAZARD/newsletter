@@ -23,14 +23,16 @@
 .input { 
     text-align:center;
 }
-
-.btn { 
+.btn {
     color: white;
     background-color: rgba(0, 0, 0);
     margin-top: 20px;
     border-radius: 10px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
-
 .btn:hover {
     background-color: rgba(230, 230, 230, 0.5);
     color: black;
