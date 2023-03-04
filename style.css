@@ -1,0 +1,41 @@
+.login-card {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid grey;
+    max-width: 40ch;
+}
+.title {
+    text-align: center;
+}
+.message {
+    margin-top: 150px;
+}
+.warning {
+    color: red;
+    text-align: center;
+}
+.login-title {
+    color:black;
+}
+.input { 
+    text-align:center;
+}
+
+.btn { 
+    color: white;
+    background-color: rgba(0, 0, 0);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: rgba(230, 230, 230, 0.5);
+    color: black;
+}
+.footer {
+    text-align: center;
+    margin-top: 100px;
+}

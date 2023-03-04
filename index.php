@@ -7,52 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Login</title>
-    <style>
-    .login-card {
-        align-items: center;
-        text-align: center;
-        padding: 20px;
-        margin: auto;
-        border-radius: 15px;
-        border: 1px solid grey;
-        max-width: 40ch;
-    }
-    .title {
-        text-align: center;
-    }
-    .message {
-        margin-top: 150px;
-    }
-    .warning {
-        color: red;
-        text-align: center;
-    }
-    .login-title {
-        color:black;
-    }
-    .input { 
-        text-align:center;
-    }
-
-    .btn { 
-        color: white;
-        background-color: rgba(0, 0, 0);
-        margin-top: 20px;
-        border-radius: 10px;
-    }
-
-    .btn:hover {
-        background-color: rgba(230, 230, 230, 0.5);
-        color: black;
-    }
-    .footer {
-        text-align: center;
-        margin-top: 100px;
-    }
-    </style>
 </head>
-
 <body class="container">
     <div class="title">
         <h1>
